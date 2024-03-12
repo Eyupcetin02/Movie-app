@@ -1,0 +1,52 @@
+.parentAuthcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Authcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1318px;
+    height: 652px;
+    background: rgb(129, 116, 116);
+}
+
+
+.childContainer{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 150px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.button{
+    width: 400px;
+    height: 25px;
+    background-color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #76b6db;
+}

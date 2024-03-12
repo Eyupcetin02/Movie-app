@@ -1,0 +1,26 @@
+.menu-container{
+
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  background-color: #e09999; 
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-card{
+cursor: pointer;
+margin-top: 35px;
+
+}
+
+.menu-card:hover{
+
+    font-size: large;
+
+}

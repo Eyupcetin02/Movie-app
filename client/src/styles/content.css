@@ -1,0 +1,31 @@
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    flex: 1 1 23%;
+    margin-right: 6px;
+    background-color: rgb(194, 240, 240);
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container img {
+    width: 100%; 
+    max-height: 80px; 
+    object-fit: contain; 
+}
+
+.content-button {
+    display: flex;
+}
+
+.content-button button {
+    width: 45px;
+    height: 25px;
+    margin-left: 15px;
+    background-color: rgb(236, 236, 229);
+    border: 1px solid;
+}

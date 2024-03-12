@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(47, 64, 78);
+    height: 65px;
+}
+.inputDiv{
+    width: 650px;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 35px;
+}
+.nav-input{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-input input{
+    width: 550px;
+    height: 26px;
+    margin-top: 9px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border: none;
+}
+.nav-input input:focus{
+    outline: none;
+}
+.nav-users{
+    margin-left: auto;
+}
+
+.nav-icon{
+    margin-top: 10px;
+    margin-left: 5px;
+    z-index: 5;
+}
+
+.nav-users{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.notification{
+    position: relative;
+}
+.noti{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background-color: red;
+}
+.nav-item-item{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.nav-item-item:hover{
+    opacity: 0.5;
+}
+
+
+.notification-div{
+    width: 80px;
+    height: 155px;
+    background-color: blue;
+}
+
+.notification-div img{
+    width: 80px;
+    height: 75px;
+}
