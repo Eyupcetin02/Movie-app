@@ -23,7 +23,6 @@ For Frontend - `cd frontend` `npm i`
 | react-redux | jsonwebtoken|
 | react-router-dom| mongoose|
 | redux-thunk |cors|
-| react-toastify|  |
 
 ## Author
 
