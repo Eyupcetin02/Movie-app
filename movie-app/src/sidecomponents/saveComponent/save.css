@@ -1,0 +1,88 @@
+.save-container{
+  background-color: black;
+
+    
+}
+
+
+.save-menu{
+    z-index: 10;
+    position: fixed;
+    top: 5px;
+    left: 7px;
+    color: white;
+    font-size: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.save-menu:hover{
+    background: #686262;
+}
+
+.save-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+    margin-left: 50px;
+    background-color: black;
+}
+
+.save-item{
+    width: 35%;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid rgb(231, 225, 225);
+    border-radius: 8px;
+    height: 45vh;
+    position: relative;
+    margin: 15px;
+}
+
+.save-item img{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    left: 0;
+    top: 35px;
+
+}
+
+.save-item button{
+position: absolute;
+right: 50%;
+bottom: 0;
+width: 98px;
+height: 50px;
+margin-right: 15px;
+}
+.save-item h2{
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+.save-page-sidebar{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    row-gap: 40px;
+    position: fixed; 
+    top: 0;
+}
+
+.save-delete-button{
+    background: #000;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}

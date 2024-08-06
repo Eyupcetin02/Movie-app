@@ -1,0 +1,55 @@
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    color: black;
+}
+
+.modal-content {
+    background: rgba(66, 73, 82, 0.9);
+    width: 33%;
+    height: 80%;
+    padding: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+.modal-desc{
+    overflow: hidden;
+}
+
+.modal-close {
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    gap: 12px;
+}
+
+
+.modal-img{
+    width: 45%;
+}
