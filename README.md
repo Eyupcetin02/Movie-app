@@ -1,4 +1,4 @@
-﻿# Netflix-clone
+﻿# Movie-app
 
 ## Proje açıklaması 
 
