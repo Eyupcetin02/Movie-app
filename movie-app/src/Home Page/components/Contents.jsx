@@ -14,7 +14,7 @@ const Contents = () => {
   const {mode} = useSelector(state => state.mode)
   const [info , setInfo] = useState({img : "https://tr.web.img4.acsta.net/pictures/210/562/21056253_20131108151938568.jpg" , desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, totam consequuntur iusto cumque excepturi laudantium necessitatibus sunt voluptates vitae fugiat autem soluta animi inventore est modi debitis nam cupiditate magni veritatis! At tenetur, mollitia nulla impedit doloribus ab beatae consectetur ad eveniet sequi maiores necessitatibus ipsa nemo saepe veniam laboriosam!"})
   const [filter , setFilter] = useState("hepsi")
-  const [textColor, setTextColor] = useState('#000'); // Varsayılan siyah renk
+  const [textColor, setTextColor] = useState('#000'); 
   const filterChange = (e)=>{
     setFilter(e.target.value)
     
@@ -34,7 +34,7 @@ const Contents = () => {
       canvas.height = img.height;
       ctx.drawImage(img, 0, 0);
 
-      // Resmin ana rengini bulma
+      
       const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
       const pixels = imageData.data;
       let r = 0, g = 0, b = 0;
@@ -50,9 +50,9 @@ const Contents = () => {
       g = Math.floor(g / pixelCount);
       b = Math.floor(b / pixelCount);
 
-      // Renk kontrastı hesaplama
+      
       const brightness = (r * 299 + g * 587 + b * 114) / 1000;
-      const newTextColor = brightness > 125 ? '#000' : '#fff'; // Yüksek parlaklıkta siyah, düşük parlaklıkta beyaz
+      const newTextColor = brightness > 125 ? '#000' : '#fff'; 
 
       setTextColor(newTextColor);
     };
