@@ -11,7 +11,6 @@ const movie = require("./routers/movie")
 const swaggerConfig = require("./swagger/swaggerConfig")
 dotenv.config()  
 app.use(cors())
-app.use(express.json());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:"30mb"}))
 dbConnection()
